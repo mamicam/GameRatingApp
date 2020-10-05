@@ -19,4 +19,9 @@ public class GameRatingApp extends NanoHTTPD {
         }
     }
 
+    @Override
+    public Response serve(IHTTPSession session) {
+        return null;
+    }
+
 }

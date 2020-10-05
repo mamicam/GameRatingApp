@@ -6,10 +6,11 @@ public class Game {
     private long gameId;
     private String title;
     private String producer;
-    private Date premiereDate;
+    private java.sql.Date premiereDate;
     private String availablePlatforms;
     private int rating;
     private String review;
+    private String nick;
 
     public long getGameId() {
         return gameId;
@@ -39,7 +40,7 @@ public class Game {
         return premiereDate;
     }
 
-    public void setPremiereDate(Date premiereDate) {
+    public void setPremiereDate(java.sql.Date premiereDate) {
         this.premiereDate = premiereDate;
     }
 
@@ -65,5 +66,13 @@ public class Game {
 
     public void setReview(String review) {
         this.review = review;
+    }
+
+    public String getNick() {
+        return nick;
+    }
+
+    public void setNick(String nick) {
+        this.nick = nick;
     }
 }
