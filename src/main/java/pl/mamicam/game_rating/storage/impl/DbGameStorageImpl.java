@@ -10,7 +10,7 @@ import java.util.List;
 public class DbGameStorageImpl implements InfoGameStorage {
     private static String JDBC_URL = "jdbc:postgresql://localhost:5432/game_rating_db";
     private static String USER_NAME = "postgres";
-    private static String USER_PASS = "Asia1987";
+    private static String USER_PASS = "postgres";
 
     static {
         try {
