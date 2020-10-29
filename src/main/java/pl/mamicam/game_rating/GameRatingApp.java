@@ -5,6 +5,8 @@ import fi.iki.elonen.NanoHTTPD;
 import java.io.IOException;
 
 public class GameRatingApp extends NanoHTTPD {
+    RequestUrlMapper requestUrlMapper = new RequestUrlMapper();
+
     public GameRatingApp(int port) throws IOException {
         super(port);
         start(5000, false);
@@ -21,7 +23,6 @@ public class GameRatingApp extends NanoHTTPD {
 
     @Override
     public Response serve(IHTTPSession session) {
-        return null;
+        return requestUrlMapper.delegateRequest(session);
     }
-
 }

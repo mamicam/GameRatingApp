@@ -1,19 +1,27 @@
 package pl.mamicam.game_rating.game;
 
-import java.util.Date;
-
 public class Game {
     private long gameId;
+    private long ratingId;
     private String title;
     private String producer;
-    private java.sql.Date premiereDate;
+    private long premiereDate;
     private String availablePlatforms;
     private int rating;
     private String review;
     private String nick;
+    private double avg_game_rating;
 
     public long getGameId() {
         return gameId;
+    }
+
+    public long getRatingId() {
+        return ratingId;
+    }
+
+    public void setRatingId(long ratingId) {
+        this.ratingId = ratingId;
     }
 
     public void setGameId(long gameId) {
@@ -36,11 +44,11 @@ public class Game {
         this.producer = producer;
     }
 
-    public Date getPremiereDate() {
+    public long getPremiereDate() {
         return premiereDate;
     }
 
-    public void setPremiereDate(java.sql.Date premiereDate) {
+    public void setPremiereDate(long premiereDate) {
         this.premiereDate = premiereDate;
     }
 
@@ -74,5 +82,9 @@ public class Game {
 
     public void setNick(String nick) {
         this.nick = nick;
+    }
+
+    public void setAvg_game_rating(double avg_game_rating) {
+        this.avg_game_rating = avg_game_rating;
     }
 }

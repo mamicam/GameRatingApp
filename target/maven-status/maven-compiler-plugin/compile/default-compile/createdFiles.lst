@@ -1,1 +1,6 @@
 pl\mamicam\game_rating\GameRatingApp.class
+pl\mamicam\game_rating\storage\InfoGameStorage.class
+pl\mamicam\game_rating\controller\GameRatingController.class
+pl\mamicam\game_rating\RequestUrlMapper.class
+pl\mamicam\game_rating\game\Game.class
+pl\mamicam\game_rating\storage\impl\DbGameStorageImpl.class

@@ -1,0 +1,7 @@
+1. Dodanie gry - jest ok.
+2. Dodanie oceny i opisu gry - jest ok.
+3. Odczyt jednej gry z wyliczeniem œredniej ocen - do zrobienia
+4. Odczyt wszystkich gier wraz z ich ocenami - do zrobienia
+5. Mo¿liwoœæ edytowania danych o grze - do zrobienia
+6. Mo¿liwoœæ usuwania komentarzy gry wraz z ocenami - do zrobienia
+7. Mo¿liwoœæ usuwania wprowadzonych gier - do zrobienia
